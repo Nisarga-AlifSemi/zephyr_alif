@@ -12,3 +12,8 @@ properties:
     required: true
   interrupts:
     required: true
+  eth_mdio:
+    type: phandle
+    description: |
+      Phandle to the MDIO controller for managing PHY
+      configuration and link setup.
